@@ -1,10 +1,10 @@
 {
     "extends": [
-        "react-app",
+        "react-native",
         "prettier"
     ],
     "plugins": [
-        "react",
+        "react-native",
         "prettier"
     ],
     "rules": {
@@ -13,12 +13,11 @@
             {
                 "arrowParens": "always",
                 "semi": false,
-                "trailingComma": "none",
-                "tabWidth": 2,
                 "endOfLine": "auto",
-                "useTabs": false,
                 "singleQuote": true,
+                "trailingComma": "none",
                 "printWidth": 120,
+                "tabWidth": 1,
                 "jsxSingleQuote": true
             }
         ]
